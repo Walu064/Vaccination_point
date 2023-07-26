@@ -6,24 +6,20 @@ namespace Vaccination_point_v3_frame.Backstage
 {
     static class Vaccination_point
     {
-        //kolejka do rejestracji i bufor dla pacjenta na teście
         public static LinkedList<Patient> registration_queue;
         public static Patient[] testing_buffer;
 
-        //kolejki do gabinetu
         public static LinkedList<Patient> moderna_queue;
         public static LinkedList<Patient> astra_queue;
         public static LinkedList<Patient> sputnik_queue;
         public static LinkedList<Patient> jj_queue;
         public static LinkedList<Patient> pfizer_queue;
 
-        //monitor
         public static object registration_que = new object();
         public static object testing_box = new object();
 
         public static Semaphore semFirst = new Semaphore(0,1);
 
-        //zmienna do counterów
         public static int testNegative_counter = 0,
             testPositive_counter = 0, moderna_vacCounter = 0,
             astra_vacCounter = 0, sputnik_vacCounter = 0,
@@ -44,7 +40,6 @@ namespace Vaccination_point_v3_frame.Backstage
 
         public static void AddPatientToRegistrationQueue(Patient pat)
         {
-            //w zależności od priorytetu pacjent dodawany jest na koniec lub początek kolejki
             Monitor.Enter(registration_que);
             if(pat.GetPatientPriority() == 1)
             {

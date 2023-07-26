@@ -8,3 +8,14 @@ D:\Projekty_programy\VS_projekty\Vaccination_point_v3_frame\obj\Debug\Vaccinatio
 D:\Projekty_programy\VS_projekty\Vaccination_point_v3_frame\obj\Debug\Vaccination_point_v3_frame.exe
 D:\Projekty_programy\VS_projekty\Vaccination_point_v3_frame\obj\Debug\Vaccination_point_v3_frame.pdb
 D:\Projekty_programy\VS_projekty\Vaccination_point_v3_frame\obj\Debug\Vaccination_point_v3_frame.mainForm.resources
+D:\Projekty\Vaccination_point\bin\Debug\Vaccination_point_v3_frame.exe.config
+D:\Projekty\Vaccination_point\bin\Debug\Vaccination_point_v3_frame.exe
+D:\Projekty\Vaccination_point\bin\Debug\Vaccination_point_v3_frame.pdb
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.csproj.AssemblyReference.cache
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.csproj.SuggestedBindingRedirects.cache
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.mainForm.resources
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.Properties.Resources.resources
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.csproj.GenerateResource.cache
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.csproj.CoreCompileInputs.cache
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.exe
+D:\Projekty\Vaccination_point\obj\Debug\Vaccination_point_v3_frame.pdb

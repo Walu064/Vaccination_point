@@ -5,7 +5,7 @@ namespace Vaccination_point_v3_frame.Backstage
 {
      static class Logic
      { 
-        /*  Wartości preferedPreparation:
+        /* Values of preferedPreparation enum:
          * 1. - Moderna
          * 2. - AstraZeneca
          * 3. - Sputnik
@@ -13,9 +13,6 @@ namespace Vaccination_point_v3_frame.Backstage
          * 5. - Pfizer
          */
 
-        /// 
-        /// CYKL ŻYCIA WĄTKU (pacjenta)
-        /// 
         public static void PatientVisit()
         {
             int prep = (new Random()).Next(6);
@@ -39,7 +36,6 @@ namespace Vaccination_point_v3_frame.Backstage
 
         }
 
-        //metoda pomocnicza do generowania wyniku testu na covid
         private static int GetTestResult()
         {
             int result = ((new Random()).Next(500) % 2);
@@ -65,19 +61,13 @@ namespace Vaccination_point_v3_frame.Backstage
             }
         }
 
-        /// 
-        /// OBSŁUGA LICZNIKÓW
-        /// 
         public static void CounterHandle()
         {
-            //suma wszystkich szczepionek jako suma wszystkich zaszczepionych
             mainForm.vaccinated_counter.Text = (Vaccination_point.moderna_vacCounter+Vaccination_point.pfizer_vacCounter+
             Vaccination_point.sputnik_vacCounter+Vaccination_point.jj_vacCounter+Vaccination_point.astra_vacCounter).ToString();
 
-            //suma negatywnych wyników na covid19
             mainForm.positive_counter.Text = (Vaccination_point.testPositive_counter).ToString();
 
-            //sumy poszczególnych preparatów
             mainForm.modernaVaccinated_counter.Text = (Vaccination_point.moderna_vacCounter).ToString();
             mainForm.astraVaccinated_counter.Text = (Vaccination_point.astra_vacCounter).ToString();
             mainForm.sputnikVaccinated_counter.Text = (Vaccination_point.sputnik_vacCounter).ToString();

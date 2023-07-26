@@ -44,3 +44,7 @@ The application consists of several classes that handle different aspects of the
 11. The counters for various statistics, such as the number of vaccinated patients (`vaccinated_counter`) and the number of positive tests (`positive_counter`), are updated and displayed in real-time in the graphical user interface.
 
 12. The UI updates are handled by separate threads (`Listbox_X_actualization` methods in `Threads` class), which periodically refresh the listboxes and labels with the latest information.
+
+## UI design
+![image](images/image.jpg)
+

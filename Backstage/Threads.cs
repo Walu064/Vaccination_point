@@ -6,9 +6,6 @@ namespace Vaccination_point_v3_frame.Backstage
 {
     static class Threads
     {
-        /// 
-        /// TWORZENIE WONTKUF
-        /// 
         public static void CreateThreads()
         {
             int numberOfPatients = 10;
@@ -23,9 +20,6 @@ namespace Vaccination_point_v3_frame.Backstage
             }
         }
 
-        ///
-        /// MENTODY DO WONDGI DO ANKTUANLIZANCJI LINSBONKSUW 
-        /// 
         public static void Listbox_tes_actualization()
         {
             while (true)

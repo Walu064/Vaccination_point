@@ -7,7 +7,6 @@ namespace Vaccination_point_v3_frame
 {
     public partial class mainForm : Form
     {
-        //deklaracje zmiennych do obsługi elementów w oknie wymagających odświeżania
         public static ListBox listbox_reg,
             listbox_tes, listbox_pfi,
             listbox_mod, listbox_ast,
@@ -23,7 +22,6 @@ namespace Vaccination_point_v3_frame
             InitializeComponent();
         }
         
-        //pokurwonstruktor
         private void Vaccination_point_Load(object sender, EventArgs e)
         {
             listbox_reg = listbox_registration;
